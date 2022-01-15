@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(2, 2, 2, 0.932);
+    color: rgb(190, 190, 190);
+    margin: 50px;
+}
+
+.blockquote p {
+    display: flex;
+    /* box-sizing: content-box; */
+    flex-direction: column;
+    height: auto;
+    width: fit-content;
+    /* text-align: right; */
+}
+
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 300ms;
+  }
+/* .container {
+    width: 500px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-around;
+    justify-items: stretch;
+    
+} */

@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(2, 2, 2, 0.932);
+    color: rgb(190, 190, 190);
+    margin: 50px;
+}
+
+p{
+    cursor: pointer;
+    margin: 0px;
+}
+
+.col-7{
+    border-radius: 5px;
+}
+
+.list-group-item{
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(216, 216, 216, 0.836);
+    display: flex;
+    justify-content: space-between;
+    margin: 9px;
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+
+.btn-dark{
+    width: max-content;
+    box-sizing: content-box;
+}
